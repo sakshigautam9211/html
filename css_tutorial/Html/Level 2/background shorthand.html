@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background shorthand</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #bar {
+            background-color: aquamarine;
+            color: rgba(103,18,18,0.8);
+        }
+        main{
+            background-color: blanchedalmond;
+            height: 500px;
+        }
+        #product {
+            /*
+            background-image: url(jeans.jfif);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: green;*/
+            width: 200px;
+            height: 400px;
+            background: green url('jeans.jfif') no-repeat  center;
+           
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="bar">This is my nev bar</div>
+    </header>
+    <main>
+        <div id="product">Product 1</div>
+    </main>
+    <footer></footer>
+    
+</body>
+</html>
